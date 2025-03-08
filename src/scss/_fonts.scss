@@ -1,0 +1,25 @@
+// Inter Variable Font (основной)
+@font-face {
+  font-family: 'Inter';
+  src:
+    url('../fonts/inter/Inter-VariableFont_opsz,wght.woff2')
+      format('woff2-variations'),
+    url('../fonts/inter/Inter-VariableFont_opsz,wght.woff')
+      format('woff-variations');
+  font-weight: 100 900; // Диапазон всех возможных начертаний
+  font-display: swap;
+  font-style: normal;
+}
+
+// Inter Variable Font (курсив - если нужен)
+@font-face {
+  font-family: 'Inter';
+  src:
+    url('../fonts/inter/Inter-Italic-VariableFont_opsz,wght.woff2')
+      format('woff2-variations'),
+    url('../fonts/inter/Inter-Italic-VariableFont_opsz,wght.woff')
+      format('woff-variations');
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+}
